@@ -71,6 +71,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.gif-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* garante que o vídeo preencha a div sem distorcer */
+}
 
 /* Basic */
 
@@ -89,7 +94,6 @@ input, select, textarea {
 		}
 
 	}
-
 	html {
 		box-sizing: border-box;
 	}
